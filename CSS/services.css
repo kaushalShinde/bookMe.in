@@ -1,0 +1,210 @@
+
+*{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    /* background-image: url('/EDI_original/Images/bg1.jpeg'); */
+    /* background: no-repeat center/s100% url('/EDI_original/Images/bg.jpg'); */
+    /* background: no-repeat center/100% url('/EDI_original/Images/bg2.jpg');    */
+    background-image: url('/EDI_original/Images/bg2.jpg'); 
+}
+
+
+
+/* *************************Navigation Bar************************* */
+.navbar{
+    display: flex;
+    position: static;
+
+    color: rgb(234, 53, 53);
+    background-color: black;
+
+    align-content: center;
+    justify-content: center;
+
+    text-decoration: none;
+    
+    font-size: 20px;
+    z-index: 1;
+    margin: -8px;
+}
+#logo{
+    position: absolute;
+    top: -4px;
+    left: 10px;
+    margin: -15px 4px;
+}
+#logo img{
+    margin: 35px 10px;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+}
+#logoName{
+    color: white;
+    /* text-decoration: underline; */
+    /* font-weight: unset; */
+    margin: -90px 97px;
+}
+.navbar #navbarItem{
+    display: block;
+    float: right;
+    list-style-type: none;
+    z-index: 1;
+}
+.navbar ul{
+    margin-left: 600px;
+    color: white;
+    display: flex;
+    z-index: 1;
+}
+.navbar ul li{
+    color: white;
+    list-style: none;
+    padding: 5px 25px;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.navbar ul li a{
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    color: #FFD700;
+    font-weight: bold;
+    transform: scale(1.1);
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    /* background-color: white;
+    border: 1px solid black;
+    border-radius: 10px; */
+}
+
+/* .navbar #login ul li{ */
+    /* border: 2px solid white; */
+    /* color: yellow; */
+/* } */
+
+/* *************************services************************* */
+
+.services{
+    display: grid;
+    position: relative;
+    /* border: 2px solid yellow; */
+
+    align-items: center;
+    justify-content: center;
+
+    top: 10px;
+
+    /* height: 50px;
+    width: 50px; */
+
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(1, auto);
+    grid-gap: 50px;
+
+}
+
+.serviceItem{
+    /* border: 2px solid gold; */
+    height: 250px;
+    width: 200px;
+}
+.serviceItem:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.serviceItem img{
+    height: 200px;
+    width: 200px;
+
+    /* margin: 20px 50px; */
+
+    border-radius: 50px;
+}
+.serviceItem p{
+    position: relative;
+    text-align: center;
+    top: -50px;
+
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 20px;
+
+    text-decoration: none;
+    /* align-items: center; */
+    /* margin: -40px 70px; */
+}
+.serviceItem a{
+    text-decoration: none;
+}
+
+/* *******************middle text line*******************  */
+.textLine{
+    position: relative;
+    top: 50px;
+
+    align-items: center;
+    justify-content: center;
+    
+    text-align: center;
+
+    /* border: 2px solid yellow; */
+
+}
+.textLine p{
+    color: yellow;
+    font-size: 20px;
+}
+
+/* *********************city section********************* */
+.cityContainer{
+    position: relative;
+    display: grid;
+    top: 51px;
+
+    z-index: 1;
+
+    align-items: center;
+    justify-content: center;
+
+    /* border: 2px solid yellow; */
+
+    grid-template-columns: repeat(7, 100px);
+    grid-template-rows: repeat((5, auto));
+    grid-gap: 0px 40px;
+ 
+}
+.city p{
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    /* border: 2px solid yellow; */
+}
+.city p:hover{
+    transform: scale(1.2);
+    color: gold;
+}
+
+
+/* ****************************footer**************************** */
+
+footer{
+    display: flex;
+    position: relative;
+
+    background-color: black;
+    color: white;
+
+    padding: 5px 500px;
+    bottom: -120px;
+    align-items: center;
+    justify-content: center;
+
+    margin: -7px;
+}

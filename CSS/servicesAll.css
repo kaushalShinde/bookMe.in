@@ -1,0 +1,144 @@
+body{
+    /* background-color: black; */
+    background: url('/EDI_original/Images/bg2.jpg');
+    color: white;
+    font-family: 'Abel', sans-serif;
+}
+/* ****************************navbar**************************** */
+.navbar{
+    display: flex;
+    position: static;
+
+    /* background-color: black; */
+
+    align-items: center;
+    justify-content: center;
+
+    /* text-align: center; */
+    text-decoration: none;
+
+    font-size: 20px;
+    z-index: 1;
+    margin: -8px;
+}
+.navLogo{
+    position: relative;
+}
+.navLogo img{
+    position: absolute;
+    height: 47px;
+    width: 47px;
+
+    /* top: 15px; */
+    left: 15px;
+}
+.navbar #logoName{
+    position: relative;
+
+    top: 15px;
+    left: 99px;
+    
+    margin: 0px;
+}
+
+/* *********************************************************** */
+
+#pageFor{
+
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    top: 70px;
+    font-size: 30px;
+    text-align: center;
+    /* font-family: 'Abel', sans-serif; */
+}
+
+/* *********************************************************** */
+
+
+
+
+
+/* *********************container serction********************* */
+
+.container{
+    /* https://www.youtube.com/watch?v=WCkVw32wp2E */
+    /* border: 2px solid yellow; */
+
+    position: relative;
+    top: 100px;
+    left: 30px;
+    
+    display: grid;
+    grid-template-columns: repeat(25, 200px);
+    grid-template-rows: repeat(1, 230px);
+    margin: 10px 0px;
+    /* grid-auto-flow: column;s */
+    /* grid-auto-columns: minmax(160px,1fr); */
+    /* overflow-x: scroll; */
+
+}
+#serviceItems{
+
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 0px 5px;
+    
+}
+.container #serviceItems #serviceItemlogo{
+    position: relative;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+
+    top: 20px;
+    left: 45px;
+}
+.container #serviceItems #serviceItemUtil1{
+    position: relative;
+    height: 20px;
+    width: 150px;
+    border-radius: 18%;
+
+    top: 50px;  
+    left: -75px;
+}
+.container #serviceItems #serviceItemUtil2{
+    position: relative;
+    height: 20px;
+    width: 150px;
+    border-radius: 18%;
+
+    top: 90px;  
+    left: -228px;
+}
+.container #serviceItems #serviceItemCart{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+
+    top: 130px;  
+    left: -260px;
+}
+/* div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu #serviceItems:hover {
+  background-color: #777;
+} */
+     
+#scrollmenu {
+    
+    position: relative;
+    margin: 5px, 5px;
+    padding: 15px 0px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+
